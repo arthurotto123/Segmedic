@@ -1,0 +1,21 @@
+.chamada-section {
+    margin: 200px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+    & h2 {
+    font-size: 3.5rem;
+    color: #300469;
+}
+
+    & p {
+        font-size: 30px;
+        font-weight: 510;
+    }
+}
+
+
+

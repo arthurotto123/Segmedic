@@ -1,0 +1,78 @@
+.sobre-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    margin: 200px 0px;
+    
+
+}
+
+.sobre-title {
+    font-size: 5rem;
+    color: #481B80;
+}
+
+
+.p-sobre{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+
+    & span {
+        color: #481B80;
+    }
+}
+
+.sobre-container {
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-element {
+    background: linear-gradient(
+  to right,
+  #82ABBF,
+  #A4C6D2
+  
+);
+    border-radius: 12px;
+    padding: 30px;
+    width: 40%;
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(130, 171, 191, 0.2);
+
+    & p {
+        text-align: center;
+    }
+
+   
+
+}
+
+
+.sobre-element i {
+    font-size: 5rem;
+    color: #481B80;
+}
+.sobre-section p{
+    font-size: 40px;
+
+    & span {
+        color: #481B80;
+    }
+}

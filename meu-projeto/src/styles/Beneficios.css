@@ -1,0 +1,129 @@
+/* Beneficios.css */
+
+.bene-cont {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  
+}
+
+.beneficio-container {
+  width: 90%;
+  max-width: 1400px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.slider-bene {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track-bene {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.quadro-wrapper {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.bene-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bene-section img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  height: auto;
+}
+
+.bene-list {
+  flex: 1;
+  min-width: 300px;
+}
+
+.bene-list h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #481b80;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bene-list i {
+  font-size: 2rem;
+  color: #82ABBF;
+}
+
+.bene-list ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.bene-list li {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.bene-list hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+button.bene-home,
+button.button-bene,
+button.button-home {
+  padding: 10px 20px;
+  background: #481b80;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.bene-home:hover,
+button.button-bene:hover,
+button.button-home:hover {
+  background: #370e5f;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .bene-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bene-section img {
+    max-width: 100%;
+  }
+
+  .bene-list {
+    padding-top: 20px;
+  }
+}
+
