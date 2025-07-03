@@ -5,7 +5,7 @@ import imgform from '../img/atendimento.jpg'
 
 function Formulario() {
     return (
-        <section className="form-section">
+        <section id="Formulario" className="form-section">
                 <div>
                     <h3 className="form-title">Entre em contato conosco</h3>
                 </div>

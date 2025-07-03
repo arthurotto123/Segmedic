@@ -6,7 +6,7 @@ import comoimg from '../img/como-img.jpg'
 
 function ComoFunciona() {
     return (
-        <section className="como-section">
+        <section id="ComoFunciona" className="como-section">
             <div className="como-container">
                 <h3>Como adiquirir um cartão?</h3>
                 <div className="como-list">

@@ -18,13 +18,13 @@
             #2C4759 30%,
             #481B80 65%,
             #88BCC6 100%);
-    
+
     align-items: center;
     justify-content: center;
     padding: 5px;
-    
 
-    & a{
+
+    & a {
         color: white;
         text-decoration: none;
     }
@@ -69,4 +69,87 @@
     & :hover {
         color: #428ec042;
     }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    #nav-logo {
+        display: block;
+
+        & img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        padding: 10px 0;
+        border-top: 1px solid #ccc;
+    }
+
+    .navbar-links.show {
+        display: flex;
+    }
+
+    .navbar-links li {
+        margin: 10px 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #2C4657;
+        margin-left: auto;
+
+    }
+
+    .formButton {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+
+    #nav-button {
+        display: none;
+    }
+
+    .navbar-title {
+        font-size: 8px;
+    }
+
+
 }

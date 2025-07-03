@@ -1,39 +1,95 @@
-.como-section{
-    width: 100%;
-    height: 600px;
-    background-color: #421A74;
-    padding: 50px;
-    border-radius: 70px 70px 0px 0px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-evenly;
+.como-section {
+  width: 100%;
+  height: 650px;
+  background-color: #421A74;
+  padding: 50px;
+  border-radius: 70px 70px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-evenly;
 }
 
 .como-container h3 {
-    font-size: 3rem;
-    color: white;
-    margin-top: 30px;
+  font-size: 3rem;
+  color: white;
+  margin-top: 30px;
 }
 
 
-.como-list{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
+.como-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
 }
+
 .como-element {
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .como-img {
-   
-    object-fit: contain;
-    border-radius: 20px;
-    box-shadow: 11px 11px 16px 0px rgba(18,13,16,0.63);
--webkit-box-shadow: 11px 11px 16px 0px rgba(18,13,16,0.63);
--moz-box-shadow: 11px 11px 16px 0px rgba(18,13,16,0.63);
+
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 11px 11px 16px 0px rgba(18, 13, 16, 0.63);
+  -webkit-box-shadow: 11px 11px 16px 0px rgba(18, 13, 16, 0.63);
+  -moz-box-shadow: 11px 11px 16px 0px rgba(18, 13, 16, 0.63);
+}
+
+@media (max-width: 1500px) {
+  .como-container {
+    font-size: 1rem;
+  }
+
+  .como-list {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 10px;
+     & p {
+      font-size: 30px;
+     }
+
+
+
+  }
+
+
+}
+
+
+
+@media (max-width: 1340px) {
+  .como-section {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    gap: 30px;
+    border-radius: 50px 50px 0 0;
+  }
+
+  .como-container h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .como-list {
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .como-element {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .como-img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }

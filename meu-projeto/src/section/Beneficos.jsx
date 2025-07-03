@@ -13,7 +13,7 @@ function Beneficios() {
    const [index, setIndex] = useState(0);
 
   const quadros = [
-    <div className="bene-section">
+    <div id="Beneficios" className="bene-section">
         
                 
                 <img src={imgHomeclinica} alt="imagem de uma clínica" />
@@ -122,7 +122,7 @@ function Beneficios() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % quadros.length);
-    }, 8000); // altera o tempo de mudança de quadro
+    }, 6000); 
 
     return () => clearInterval(interval);
   }, [quadros.length]);

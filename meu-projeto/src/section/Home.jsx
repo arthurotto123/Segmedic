@@ -9,7 +9,7 @@ import '../componets/FormButton.css'
 function Home() {
   
   return (
-    <section className="home-section">
+    <section id="Home" className="home-section">
       <h1>Cartão<span> VIDALEVE</span></h1>
       <div className="home">
         <h2 className="home-title">Descontos Reais em Saúde, Bem-Estar e Qualidade de Vida</h2>
@@ -20,7 +20,7 @@ function Home() {
         </p>
 
         <button className="formButton">
-          <a href="#">Quero Meu Desconto</a>
+          <a href="#Formulario">Quero Meu Desconto</a>
         </button>
       </div>
 

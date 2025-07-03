@@ -5,6 +5,18 @@ import 'remixicon/fonts/remixicon.css'
 
 
 function Footer() {
+
+    const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section?.scrollIntoView({ behavior: 'smooth' });
+    setShowMobileMenu(false);
+  };
+
+  const toggleMenu = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
+
     return (
         <section className="footer-section">
           
@@ -19,8 +31,8 @@ function Footer() {
              <div>
                 <h3>Local</h3>
                 <ul>
-                    <li><i className="ri-map-pin-fill"></i> Nova Iguaçu</li>
-                    <i className="ri-map-pin-fill"> Miguel Couto</i>
+                    <li><i className="ri-map-pin-fill">Nova Iguaçu</i></li>
+                    <li><i className="ri-map-pin-fill">Miguel Couto</i></li>
                     <li><i className="ri-map-pin-fill">Nilópolis</i></li>
                     <li><i className="ri-map-pin-fill">São João de Meriti</i></li>
                     <li><i className="ri-map-pin-fill">Campo Grande</i></li>
@@ -32,11 +44,10 @@ function Footer() {
                 <h3>A Segmedic</h3>
                 <ul>
                     <li><button onClick={() => scrollToSection('Home')}>Home</button></li>
-                    <li><button onClick={() => scrollToSection('Sobre')}>Sobre</button></li>
-                    <li><button onClick={() => scrollToSection('Hardskills')}>Hard Skills</button></li>
-                    <li><button onClick={() => scrollToSection('Projetos')}>Projetos</button></li>
-                    <li><button onClick={() => scrollToSection('Contato')}>Contato</button></li>
-                    <li></li>
+                    <li><button onClick={() => scrollToSection('Beneficios')}>Beneficios</button></li>
+                    <li><button onClick={() => scrollToSection('O que é?')}>O que é?</button></li>
+                    <li><button onClick={() => scrollToSection('ComoFunciona')}>Como Funciona?</button></li>
+                    
                 </ul>
             </div>
 

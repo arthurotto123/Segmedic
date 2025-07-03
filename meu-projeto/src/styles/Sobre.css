@@ -76,3 +76,40 @@
         color: #481B80;
     }
 }
+
+
+@media (max-width: 1000px) {
+  .sobre-section {
+    margin: 100px 20px;
+    gap: 30px;
+  }
+
+  .sobre-title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .p-sobre {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .sobre-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sobre-element {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .sobre-element i {
+    font-size: 3.5rem;
+  }
+
+  .sobre-section p {
+    font-size: 22px;
+  }
+}

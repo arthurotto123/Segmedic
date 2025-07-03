@@ -19,3 +19,21 @@
 
 
 
+@media (max-width: 900px) {
+  .chamada-section {
+    margin: 100px 15px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .chamada-section h2 {
+    font-size: 2.5rem;
+    width: 90%;
+  }
+
+  .chamada-section p {
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}

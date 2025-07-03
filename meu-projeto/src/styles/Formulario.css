@@ -93,3 +93,48 @@ small {
 }
 
 
+@media (max-width: 768px) {
+  .form-section {
+    padding: 80px 20px;
+    gap: 40px;
+  }
+
+  .form-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .form-cont {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img-cont {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img-atend {
+    max-width: 90%;
+    max-height: 300px;
+    border-radius: 20px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .form-container input {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  small {
+    font-size: 13px;
+    text-align: center;
+  }
+}
