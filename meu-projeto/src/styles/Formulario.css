@@ -1,5 +1,12 @@
+
+#Formulario {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+ 
+}
 .form-section {
-    width: 100%;
+    width: 95%;
     
      background: linear-gradient(to right,
             #88BCC6  0%,
@@ -13,6 +20,11 @@
     align-items: center;
     gap: 50px 0px;
     padding: 150px 0px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 43px -3px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 10px 10px 43px -3px rgba(0, 0, 0, 0.336);
+    -moz-box-shadow: 10px 10px 43px -3px rgba(0, 0, 0, 0.24);
+    
 
 }
 

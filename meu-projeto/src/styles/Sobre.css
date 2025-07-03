@@ -1,16 +1,19 @@
-.sobre-section {
+#Sobre {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     gap: 50px;
     margin: 200px 0px;
+    background-color: #eaeafc;
+    padding: 100px 0px;
     
 
 }
 
+
 .sobre-title {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #481B80;
 }
 
@@ -18,98 +21,105 @@
 .p-sobre{
     width: 50%;
     text-align: center;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 20px;
 
     & span {
         color: #481B80;
     }
 }
 
-.sobre-container {
-    gap: 40px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+
+.sobre-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
 }
 
-.sobre-element {
-    background: linear-gradient(
-  to right,
-  #82ABBF,
-  #A4C6D2
+
+.card  {
+  width: 25%;
+  max-width: 400px;
+  height: 500px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #481B80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-top {
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+.card-info {
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
   
-);
-    border-radius: 12px;
-    padding: 30px;
-    width: 40%;
-    gap: 20px;
-    color: white;
-    font-size: 30px;
-    font-weight:500;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(130, 171, 191, 0.2);
+  gap: 20px;
+  align-items: center;
 
-    & p {
-        text-align: center;
-    }
+  & p {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 15px;
+    font-weight: 600;
+  }
 
-   
-
-}
-
-
-.sobre-element i {
-    font-size: 5rem;
+  & span {
     color: #481B80;
-}
-.sobre-section p{
-    font-size: 40px;
-
-    & span {
-        color: #481B80;
-    }
+    font-size: 2rem;
+  }
 }
 
+#card-bt a {
+  font-size: 1.2rem;
+}
 
-@media (max-width: 1000px) {
-  .sobre-section {
-    margin: 100px 20px;
+
+
+@media screen and (max-width: 1200px) {
+  #Sobre {
+    padding: 60px 0px;
+    margin: 100px 0px;
     gap: 30px;
   }
 
   .sobre-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
   }
 
   .p-sobre {
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .sobre-container {
+  .sobre-cards {
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
   }
 
-  .sobre-element {
-    width: 100%;
-    padding: 20px;
-    font-size: 20px;
+  .card {
+    width: 80%;
+    height: auto;
   }
 
-  .sobre-element i {
-    font-size: 3.5rem;
+  .card-info p {
+    font-size: 14px;
   }
 
-  .sobre-section p {
-    font-size: 22px;
+  .card-info span {
+    font-size: 1.5rem;
+  }
+
+  #card-bt a {
+    font-size: 1rem;
   }
 }

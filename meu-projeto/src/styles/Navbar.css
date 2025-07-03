@@ -66,9 +66,18 @@
     cursor: pointer;
     transition: color 0.3s ease;
 
-    & :hover {
-        color: #428ec042;
-    }
+
+}
+
+.navbar-links button:hover {
+    background-color: #481B80;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 .menu-toggle {

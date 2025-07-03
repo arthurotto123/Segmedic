@@ -10,3 +10,9 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
+.VidaLeve {
+    color: #271b36e0;
+    
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+  }

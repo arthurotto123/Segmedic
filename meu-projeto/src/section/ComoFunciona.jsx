@@ -1,5 +1,4 @@
 /*comoFunciona do projeto: Exibe flashcards monstrando o passo a passo do produto */
-import React, { useState } from "react";
 import '../styles/ComoFunciona.css';
 import comoimg from '../img/como-img.jpg'
 

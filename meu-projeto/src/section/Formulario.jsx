@@ -1,11 +1,12 @@
-import React, { useState} from "react";
+/*Formulario do projeto: Exibe o formulario de contato do projeto */
 import '../styles/Formulario.css';
 import '../componets/FormButton.css'
 import imgform from '../img/atendimento.jpg'
 
 function Formulario() {
     return (
-        <section id="Formulario" className="form-section">
+        <section id="Formulario"  >
+            <div className="form-section">
                 <div>
                     <h3 className="form-title">Entre em contato conosco</h3>
                 </div>
@@ -34,6 +35,7 @@ function Formulario() {
                 </div>
                 
                 <small> Suas informações estão protegidas. Não eviamos spam.</small>
+                </div>
         </section>
     )
 }

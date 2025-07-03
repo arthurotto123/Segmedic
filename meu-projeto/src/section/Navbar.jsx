@@ -20,7 +20,7 @@ function Navbar() {
     };
     return (
         <section className="navbar-section">
-            <div className="navbar-title"><h1><a href="#">🔥 Economize até 70% em Saúde, Bem-Estar e Qualidade de Vida com o Cartão VidaLeve!</a></h1></div>
+            <div className="navbar-title"><h1><a href="#Formulario">Economize até 70%, Saúde de Qualidade com Descontos que Cabem no Seu Bolso!</a></h1></div>
             <nav className="navbar">
                 <div className="navbar-header">
                 <div className="logo" id="nav-logo">
@@ -43,7 +43,7 @@ function Navbar() {
                 </ul>
 
                 <button id="nav-button" className="formButton">
-                    <a href="#Formulario">Quero o Cartão com Desconto</a>
+                    <a href="#Formulario">Quero o Plano com Desconto</a>
                 </button>
 
 

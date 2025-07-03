@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*Footer do projeto: Exibe as considerações finais do projeto */
 import '../styles/Footer.css';
 import logo from '../img/log-segmedic.png'
 import 'remixicon/fonts/remixicon.css'
@@ -21,10 +21,12 @@ function Footer() {
         <section className="footer-section">
           
 
-            <div >
+            <div  >
                 <h3>Entre em contato</h3>
+                <div className="footer-contato">
                 <i class="ri-customer-service-2-fill">Central de Ajuda</i>
                 <i class="ri-mail-line">segmedic@gmail.com</i>
+                </div>
             </div>
         
 
@@ -45,7 +47,7 @@ function Footer() {
                 <ul>
                     <li><button onClick={() => scrollToSection('Home')}>Home</button></li>
                     <li><button onClick={() => scrollToSection('Beneficios')}>Beneficios</button></li>
-                    <li><button onClick={() => scrollToSection('O que é?')}>O que é?</button></li>
+                    <li><button onClick={() => scrollToSection('Sobre')}>O que é?</button></li>
                     <li><button onClick={() => scrollToSection('ComoFunciona')}>Como Funciona?</button></li>
                     
                 </ul>

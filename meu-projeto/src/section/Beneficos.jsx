@@ -1,11 +1,11 @@
-
+/*Beneficios do projeto: Exibe a tela de beneficios do plano */
 import React, {useState, useEffect} from "react";
 import '../styles/Beneficios.css';
 import '../componets/FormButton.css'
-import imgHomeclinica from '../img/home-clinica.jpg'
-import imgHomefarmacia from '../img/home-farmacia.jpeg'
-import imgHomeremoto from '../img/home-remoto.avif'
-import imgHomedependentes from '../img/home-dependentes.avif'
+import imgBeneclinica from '../img/bene-clinica.jpg'
+import imgBenefarmacia from '../img/bene-farmacia.jpeg'
+import imgBeneremoto from '../img/bene-remoto.avif'
+import imgBenedependentes from '../img/bene-dependentes.avif' 
 
 
 
@@ -16,7 +16,7 @@ function Beneficios() {
     <div id="Beneficios" className="bene-section">
         
                 
-                <img src={imgHomeclinica} alt="imagem de uma clínica" />
+                <img src={imgBeneclinica} alt="imagem de uma clínica" />
                 <div className="bene-list">
                 <i className="ri-hospital-line"></i>
                 
@@ -40,7 +40,7 @@ function Beneficios() {
     </div>,
     <div className="bene-section">
       
-                <img src={imgHomefarmacia} alt="imagem de uma farmácia" />
+                <img src={imgBenefarmacia} alt="imagem de uma farmácia" />
                  <div className="bene-list">
                   <i className="ri-capsule-fill"></i>
                 <h3>Farmácias</h3> 
@@ -63,7 +63,7 @@ function Beneficios() {
     </div>,
     <div className="bene-section">
       
-                <img src={imgHomeremoto} alt="" />
+                <img src={imgBeneremoto} alt="" />
                 <div className="bene-list">
                 <i className="ri-customer-service-2-fill"></i>
                  
@@ -91,7 +91,7 @@ function Beneficios() {
     </div>,
     <div className="bene-section">
       
-                <img src={imgHomedependentes} alt="" />
+                <img src={imgBenedependentes} alt="" />
                 <div className="bene-list">
                 <i className="ri-group-fill"></i>
                  
@@ -129,6 +129,8 @@ function Beneficios() {
 
   return (
     <section className="bene-cont">
+
+      <h2>Beneficios do seu Plano <span className="VidaLeve">VidaLeve</span></h2>
       
 
       <div className="beneficio-container">
