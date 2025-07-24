@@ -1,6 +1,6 @@
 /*Footer do projeto: Exibe as considerações finais do projeto */
 import '../styles/Footer.css';
-import logo from '../img/log-segmedic.png'
+import logo from '../img/ChatGPT_Image_24_de_jul._de_2025__20_56_21-removebg-preview.png'
 import 'remixicon/fonts/remixicon.css'
 
 
