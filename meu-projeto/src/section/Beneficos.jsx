@@ -1,7 +1,7 @@
 /*Beneficios do projeto: Exibe a tela de beneficios do plano */
 import React, {useState, useEffect} from "react";
 import '../styles/Beneficios.css';
-
+import '../styles/Formbutton.css'
 import imgBeneclinica from '../img/bene-clinica.jpg'
 import imgBenefarmacia from '../img/bene-farmacia.jpeg'
 import imgBeneremoto from '../img/bene-remoto.avif'
