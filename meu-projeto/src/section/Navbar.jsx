@@ -7,7 +7,7 @@ import '../components/logo.css'
 import '../styles/Formbutton.css'
 import 'remixicon/fonts/remixicon.css';
 
-// ignorar este comentario
+
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
