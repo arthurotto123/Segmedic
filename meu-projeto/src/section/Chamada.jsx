@@ -1,6 +1,6 @@
 /*Chamada do projeto: Exibe uma chamada */
 import '../styles/Chamada.css';
-import '../components/FormButton.css'
+
 
 
 function Chamada() {
