@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import '../styles/Navbar.css';
 import logo from '../img/ChatGPT_Image_24_de_jul._de_2025__20_56_21-removebg-preview.png'
-import '../componets/logo.css'
-import '../componets/Formbutton.css'
+import '../components/logo.css'
+import '../components/Formbutton.css'
 import 'remixicon/fonts/remixicon.css';
 
 

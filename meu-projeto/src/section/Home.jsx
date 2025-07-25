@@ -1,6 +1,6 @@
 /*Home do projeto: Exibe a tela de home do projeto */
 import '../styles/Home.css';
-import '../componets/FormButton.css'
+import '../components/FormButton.css'
 
 
 

@@ -1,6 +1,6 @@
 /*Formulario do projeto: Exibe o formulario de contato do projeto */
 import '../styles/Formulario.css';
-import '../componets/FormButton.css'
+import '../components/FormButton.css'
 import imgform from '../img/atendimento.jpg'
 
 function Formulario() {
